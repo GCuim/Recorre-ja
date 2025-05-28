@@ -1,0 +1,151 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1E3A5F;
+    background-color: #F4F4F9;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    padding: 1rem 0;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header .menu {
+    text-align: right;
+}
+
+.header .menu a {
+    color: #FFFFFF;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header .menu a:hover {
+    color: #E74C3C;
+}
+
+/* Banner */
+.banner {
+    background-color: #E74C3C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.banner .btn-whatsapp {
+    background-color: #FFFFFF;
+    color: #E74C3C;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.banner .btn-whatsapp:hover {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+}
+
+/* Sobre Nós */
+.sobre-nos {
+    padding: 2rem 0;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    color: #1E3A5F;
+    margin-bottom: 1rem;
+}
+
+/* Serviços */
+.servicos {
+    padding: 2rem 0;
+    background-color: #F4F4F9;
+}
+
+.servicos h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1E3A5F;
+}
+
+.servicos ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.servicos li {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+/* Contato */
+.contato {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.contato h2 {
+    margin-bottom: 1rem;
+    color: #1E3A5F;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato li {
+    margin: 0.5rem 0;
+}
+
+.contato a {
+    color: #E74C3C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    color: #1E3A5F;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
